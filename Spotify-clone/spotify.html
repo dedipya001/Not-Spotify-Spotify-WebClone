@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Not-Spotify-Home to the best Music Collection</title>
+    <link rel="stylesheet" href="/spotify.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navigation">
+      <div class="logo">
+        <img src="/logo.png" alt="" class="logo-img" />
+        <div class="logo-name">Not Spotify</div>
+      </div>
+      <div class="nav-list">
+        <ul>
+          <li>HOME</li>
+          <li>ABOUT US</li>
+          <li>LOGIN</li>
+          <li>SIGNUP</li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- MIDDLE CONTAINER -->
+    <div class="midcontainer">
+      <div class="songlist">
+        <div class="Playlist-name">
+          <h1>Your Top Songs</h1>
+        </div>
+        <div class="songnames">
+          <div class="song-name-photo">
+            <img src="/covers/10.jpg" alt="" />
+            <span class="song-name"><p>Kesariyaa</p> </span>
+            <span>04:28</span><span> <i id="0" class="fa-regular itemPlay fa-circle-play"></i></span>
+          </div>
+          <div class="song-name-photo">
+            <img class="img-src" src="/covers/10.jpg" alt="">
+            <span class="song-name"> <p>Raataan Lambiyan</p> </span>
+            <span class="dur">04:28</span><span> <i id="1" class="fa-regular itemPlay fa-circle-play"></i></span>
+          </div>
+          <div class="song-name-photo">
+            <img class="img-src" src="/covers/10.jpg" alt="">
+            <span class="song-name"> <p>Agar Tum Saath Ho</p> </span>
+            <span>04:28</span><span> <i id="2" class="fa-regular itemPlay fa-circle-play"></i></span>
+          </div>
+          <div class="song-name-photo">
+            <img class="img-src" src="/covers/10.jpg" alt="">
+            <span class="song-name"><p>Ankhon se Batana</p></span>
+            <span>04:28</span><span> </span><span><i id="3" class="fa-regular itemPlay fa-circle-play" ></i></span>
+          </div>
+          <div class="song-name-photo">
+            <img class="img-src" src="/covers/10.jpg" alt="">
+            <span class="song-name"><p>Barishein</p></span>
+            <span>04:28</span><span> <i id="4" class="fa-regular itemPlay fa-circle-play" ></i></span>
+          </div>
+          <div class="song-name-photo">
+            <img class="img-src" src="/covers/10.jpg" alt="">
+            <span class="song-name"><p>Ranjhanaa</p></span>
+            <span>04:28</span><span> <i id="5" class="fa-regular itemPlay fa-circle-play" ></i></span>
+          </div>
+          <div class="song-name-photo">
+            <img class="img-src" src="/covers/10.jpg" alt="">
+            <span class="song-name"><p>Let Me Love You</p></span>
+            <span>04:28</span><span> <i id="6" class="fa-regular itemPlay fa-circle-play"></i></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- SONG PLAYER DIVISION -->
+    <div class="bottom-div">
+      <div class="songinfo">
+        <div class="playing-gif">
+          <img src="/playing.gif" alt="" id="gif" />
+        </div>
+        <div class="song-playing">
+          <span id="masterSongName">Kesariyaa-Bhramastra</span>
+        </div>
+      </div>
+      <div class="progbar">
+        <input
+          type="range"
+          value="0"
+          min="0"
+          max="100"
+          name="ProgressBar"
+          id="ProgressBar"
+        />
+        <div class="fonticons">
+          <i id="previous" class="fa-regular fa-2x fa-solid fa-backward-step"></i>
+          <i class="fa-regular fa-2x fa-circle-play" id="MasterPlay"></i>
+          <i id="next" class="fa-regular fa-2x fa-solid fa-forward-step"></i>
+          <i class="fa-solid fa-repeat"></i>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/623ee46db0.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/spotify.js"></script>
+  </body>
+</html>
